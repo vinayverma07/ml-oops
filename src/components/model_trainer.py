@@ -47,10 +47,9 @@ class ModelTrainer:
                 "AdaBoost Regressor": AdaBoostRegressor(),
             }
             params={ 
-                'criterion':['squared_error', 'friedman_mse', 'absolute_error', 'poisson']
-                    # 'splitter':['best','random'],
-                    # 'max_features':['sqrt','log2'],
-                ,
+                "Decision Tree":{
+                    'criterion':['squared_error', 'friedman_mse', 'absolute_error', 'poisson']
+                },
                 "Random Forest":{
                     # 'criterion':['squared_error', 'friedman_mse', 'absolute_error', 'poisson'],
                  
